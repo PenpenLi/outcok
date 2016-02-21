@@ -1,0 +1,76 @@
+Searching 156 files for "SCROLLVIEW_SCRIPT_SCROLL"
+
+/Users/jinyanzhang/Documents/cokGames/games/src/app/uiMgr/ui/citybuildingUpView/CityBuildingUpView.lua:
+   95      tableView:setVerticalFillOrder(cc.TABLEVIEW_FILL_TOPDOWN)
+   96      self.win:addChild(tableView)
+   97:     tableView:registerScriptHandler(CityBuildingUpView.scrollViewDidScroll,cc.SCROLLVIEW_SCRIPT_SCROLL)
+   98      tableView:registerScriptHandler(CityBuildingUpView.endScrollView,cc.SCROLLVIEW_END_SCROLL)
+   99      tableView:registerScriptHandler(CityBuildingUpView.scrollViewDidZoom,cc.SCROLLVIEW_SCRIPT_ZOOM)
+
+/Users/jinyanzhang/Documents/cokGames/games/src/cocos/extension/DeprecatedExtensionFunc.lua:
+   15  
+   16  --Enums of CCTableView will be deprecated begin
+   17: CCTableView.kTableViewScroll = cc.SCROLLVIEW_SCRIPT_SCROLL
+   18  CCTableView.kTableViewZoom = cc.SCROLLVIEW_SCRIPT_ZOOM
+   19  CCTableView.kTableCellTouched = cc.TABLECELL_TOUCHED
+   ..
+   24  
+   25  --Enums of CCScrollView will be deprecated begin
+   26: CCScrollView.kScrollViewScroll = cc.SCROLLVIEW_SCRIPT_SCROLL
+   27  CCScrollView.kScrollViewZoom = cc.SCROLLVIEW_SCRIPT_ZOOM
+   28  --Enums of CCScrollView will be deprecated end
+
+/Users/jinyanzhang/Documents/cokGames/games/src/cocos/extension/ExtensionConstants.lua:
+   14  cc.TABLEVIEW_FILL_BOTTOMUP = 1
+   15  
+   16: cc.SCROLLVIEW_SCRIPT_SCROLL = 0
+   17  cc.SCROLLVIEW_SCRIPT_ZOOM   = 1
+   18  cc.TABLECELL_TOUCHED        = 2
+
+/Users/jinyanzhang/Documents/cokGames/games/src/framework/cocos2dx/Cocos2dConstants.lua:
+  191  cc.PLATFORM_OS_WP8     = 11
+  192  
+  193: cc.SCROLLVIEW_SCRIPT_SCROLL = 0
+  194  cc.SCROLLVIEW_SCRIPT_ZOOM   = 1
+  195  cc.TABLECELL_TOUCHED        = 2
+
+5 matches across 4 files
+
+
+Searching 156 files for "SCROLLVIEW_END_SCROLL"
+
+/Users/jinyanzhang/Documents/cokGames/games/src/app/uiMgr/ui/citybuildingUpView/CityBuildingUpView.lua:
+   96      self.win:addChild(tableView)
+   97      tableView:registerScriptHandler(CityBuildingUpView.scrollViewDidScroll,cc.SCROLLVIEW_SCRIPT_SCROLL)
+   98:     tableView:registerScriptHandler(CityBuildingUpView.endScrollView,cc.SCROLLVIEW_END_SCROLL)
+   99      tableView:registerScriptHandler(CityBuildingUpView.scrollViewDidZoom,cc.SCROLLVIEW_SCRIPT_ZOOM)
+  100      tableView:registerScriptHandler(CityBuildingUpView.tableCellTouched,cc.TABLECELL_TOUCHED)
+
+/Users/jinyanzhang/Documents/cokGames/games/src/cocos/cocos2d/Cocos2dConstants.lua:
+  278  cc.Handler.EVENT_SPINE_ANIMATION_COMPLETE = 66
+  279  cc.Handler.EVENT_SPINE_ANIMATION_EVENT = 67
+  280: cc.Handler.SCROLLVIEW_END_SCROLL        = 792
+  281  
+  282  
+
+/Users/jinyanzhang/Documents/cokGames/games/src/cocos/extension/ExtensionConstants.lua:
+   23  cc.TABLECELL_SIZE_AT_INDEX  = 7
+   24  cc.NUMBER_OF_CELLS_IN_TABLEVIEW = 8
+   25: cc.SCROLLVIEW_END_SCROLL =  792 -21
+   26  
+   27  cc.SCROLLVIEW_DIRECTION_NONE = -1
+
+/Users/jinyanzhang/Documents/cokGames/games/src/framework/cocos2dx/Cocos2dConstants.lua:
+  200  cc.TABLECELL_SIZE_AT_INDEX  = 7
+  201  cc.NUMBER_OF_CELLS_IN_TABLEVIEW = 8
+  202: cc.SCROLLVIEW_END_SCROLL = 792 - 21
+  203  
+  204  cc.SCROLLVIEW_DIRECTION_NONE = -1
+  ...
+  355  cc.Handler.EVENT_PHYSICS_CONTACT_POSTSOLVE = 55
+  356  cc.Handler.EVENT_PHYSICS_CONTACT_SEPERATE = 56
+  357: cc.Handler.SCROLLVIEW_END_SCROLL        = 792
+  358  
+  359  cc.EVENT_UNKNOWN = 0
+
+5 matches across 4 files

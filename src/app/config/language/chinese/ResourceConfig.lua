@@ -1,0 +1,48 @@
+--[[
+	ResourceConfig.lua
+--]]
+
+local ResourceConfig=
+{
+	[1] = { rc_id=1,rc_num=10,},
+	[2] = { rc_id=2,rc_num=10,},
+	[3] = { rc_id=3,rc_num=10,},
+	[4] = { rc_id=4,rc_num=10,},
+	[5] = { rc_id=5,rc_num=10,},
+	[6] = { rc_id=6,rc_num=10,},
+	[7] = { rc_id=7,rc_num=10,},
+	[8] = { rc_id=8,rc_num=10,},
+	[9] = { rc_id=9,rc_num=10,},
+	[10] = { rc_id=10,rc_num=10,},
+	[11] = { rc_id=11,rc_num=10,},
+	[12] = { rc_id=12,rc_num=10,},
+	[13] = { rc_id=13,rc_num=10,},
+	[14] = { rc_id=14,rc_num=10,},
+	[15] = { rc_id=15,rc_num=10,},
+	[16] = { rc_id=16,rc_num=10,},
+	[17] = { rc_id=17,rc_num=10,},
+	[18] = { rc_id=18,rc_num=10,},
+	[19] = { rc_id=19,rc_num=10,},
+	[20] = { rc_id=20,rc_num=10,},
+	[21] = { rc_id=21,rc_num=10,},
+	[22] = { rc_id=22,rc_num=10,},
+	[23] = { rc_id=23,rc_num=10,},
+	[24] = { rc_id=24,rc_num=10,},
+	[25] = { rc_id=25,rc_num=10,},
+	[26] = { rc_id=26,rc_num=10,},
+	[27] = { rc_id=27,rc_num=10,},
+	[28] = { rc_id=28,rc_num=10,},
+	[29] = { rc_id=29,rc_num=10,},
+	[30] = { rc_id=30,rc_num=10,},
+	[31] = { rc_id=31,rc_num=10,},
+	[32] = { rc_id=32,rc_num=10,},
+	[33] = { rc_id=33,rc_num=10,},
+	[34] = { rc_id=34,rc_num=10,},
+	[35] = { rc_id=35,rc_num=10,},
+	[36] = { rc_id=36,rc_num=10,},
+	[37] = { rc_id=37,rc_num=10,},
+	[38] = { rc_id=38,rc_num=10,},
+	[39] = { rc_id=39,rc_num=10,},
+	[40] = { rc_id=40,rc_num=10,},
+}
+return ResourceConfig

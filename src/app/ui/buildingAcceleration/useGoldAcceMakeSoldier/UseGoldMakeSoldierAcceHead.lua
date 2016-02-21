@@ -1,0 +1,4 @@
+
+require("app.ui.buildingAcceleration.useGoldAcceMakeSoldier.UseGoldMakeSoldierAcceView")
+require("app.ui.buildingAcceleration.useGoldAcceMakeSoldier.UseGoldMakeSoldierAcceModel")
+require("app.ui.buildingAcceleration.useGoldAcceMakeSoldier.UseGoldMakeSoldierAcceService")

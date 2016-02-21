@@ -1,0 +1,11 @@
+
+require("app.ui.technology.TechnologyView")
+require("app.ui.technology.TechnologyCommand")
+require("app.ui.technology.TechnologyMenuView")
+require("app.ui.technology.TechnologyModel")
+require("app.ui.technology.TechnologyService")
+require("app.ui.technology.TechDefView")
+require("app.ui.technology.TechEcoView")
+require("app.ui.technology.TechMilView")
+require("app.ui.technology.ResearchView")
+require("app.ui.technology.AccelerateView")

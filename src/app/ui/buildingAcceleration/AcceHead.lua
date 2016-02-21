@@ -1,0 +1,12 @@
+
+require("app.ui.buildingAcceleration.usePropAcceMakeSoldier.UsePropAcceMakeSoldierHead")
+require("app.ui.buildingAcceleration.usePropAcceBuildingUpLv.UsePropAcceBuildingUpLvHead")
+require("app.ui.buildingAcceleration.useGoldAcceTreatment.UseGoldAcceTreamentHead")
+require("app.ui.buildingAcceleration.useGoldAcceResProduc.UseGoldAcceResProduceHead")
+require("app.ui.buildingAcceleration.useGoldAcceMakeTrap.UseGoldAcceMakeTrapHead")
+require("app.ui.buildingAcceleration.useGoldAcceMakeSoldier.UseGoldMakeSoldierAcceHead")
+require("app.ui.buildingAcceleration.useGoldAcceBuilding.UseGoldAccelerationBuildingHead")
+require("app.ui.buildingAcceleration.usePropAcceMakeTrap.UsePropMakeTrapHead")
+require("app.ui.buildingAcceleration.usePropAcceTreatment.UsePropAcceTreatmentHead")
+require("app.ui.buildingAcceleration.BuildingAccelerationView")
+require("app.ui.buildingAcceleration.BuildingAccelerationCommand")

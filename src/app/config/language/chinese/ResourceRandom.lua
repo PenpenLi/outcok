@@ -1,0 +1,48 @@
+--[[
+	ResourceRandom.lua
+--]]
+
+local ResourceRandom=
+{
+	[1] = { id=1,rr_type=1,rr_subtype=0,rr_mixx=1,rr_mixy=1,rr_maxx=200,rr_maxy=1199,},
+	[2] = { id=2,rr_type=1,rr_subtype=0,rr_mixx=201,rr_mixy=1,rr_maxx=1199,rr_maxy=200,},
+	[3] = { id=3,rr_type=1,rr_subtype=0,rr_mixx=1001,rr_mixy=201,rr_maxx=1199,rr_maxy=1199,},
+	[4] = { id=4,rr_type=1,rr_subtype=0,rr_mixx=201,rr_mixy=1001,rr_maxx=1000,rr_maxy=1199,},
+	[5] = { id=5,rr_type=2,rr_subtype=0,rr_mixx=1,rr_mixy=1,rr_maxx=594,rr_maxy=1199,},
+	[6] = { id=6,rr_type=2,rr_subtype=0,rr_mixx=595,rr_mixy=1,rr_maxx=1199,rr_maxy=594,},
+	[7] = { id=7,rr_type=2,rr_subtype=0,rr_mixx=606,rr_mixy=595,rr_maxx=1199,rr_maxy=1199,},
+	[8] = { id=8,rr_type=2,rr_subtype=0,rr_mixx=595,rr_mixy=606,rr_maxx=605,rr_maxy=1199,},
+	[9] = { id=9,rr_type=3,rr_subtype=1,rr_mixx=1,rr_mixy=1,rr_maxx=100,rr_maxy=1199,},
+	[10] = { id=10,rr_type=3,rr_subtype=1,rr_mixx=101,rr_mixy=1,rr_maxx=1199,rr_maxy=100,},
+	[11] = { id=11,rr_type=3,rr_subtype=1,rr_mixx=1101,rr_mixy=101,rr_maxx=1199,rr_maxy=1199,},
+	[12] = { id=12,rr_type=3,rr_subtype=1,rr_mixx=101,rr_mixy=1101,rr_maxx=1100,rr_maxy=1199,},
+	[13] = { id=13,rr_type=3,rr_subtype=2,rr_mixx=1,rr_mixy=1,rr_maxx=200,rr_maxy=1199,},
+	[14] = { id=14,rr_type=3,rr_subtype=2,rr_mixx=201,rr_mixy=1,rr_maxx=1199,rr_maxy=200,},
+	[15] = { id=15,rr_type=3,rr_subtype=2,rr_mixx=1001,rr_mixy=201,rr_maxx=1199,rr_maxy=1199,},
+	[16] = { id=16,rr_type=3,rr_subtype=2,rr_mixx=201,rr_mixy=1001,rr_maxx=1000,rr_maxy=1199,},
+	[17] = { id=17,rr_type=3,rr_subtype=3,rr_mixx=1,rr_mixy=1,rr_maxx=300,rr_maxy=1199,},
+	[18] = { id=18,rr_type=3,rr_subtype=3,rr_mixx=301,rr_mixy=1,rr_maxx=1199,rr_maxy=300,},
+	[19] = { id=19,rr_type=3,rr_subtype=3,rr_mixx=901,rr_mixy=301,rr_maxx=1199,rr_maxy=1199,},
+	[20] = { id=20,rr_type=3,rr_subtype=3,rr_mixx=301,rr_mixy=901,rr_maxx=900,rr_maxy=1199,},
+	[21] = { id=21,rr_type=3,rr_subtype=4,rr_mixx=101,rr_mixy=101,rr_maxx=400,rr_maxy=1100,},
+	[22] = { id=22,rr_type=3,rr_subtype=4,rr_mixx=401,rr_mixy=101,rr_maxx=1100,rr_maxy=400,},
+	[23] = { id=23,rr_type=3,rr_subtype=4,rr_mixx=801,rr_mixy=401,rr_maxx=1100,rr_maxy=1100,},
+	[24] = { id=24,rr_type=3,rr_subtype=4,rr_mixx=401,rr_mixy=801,rr_maxx=800,rr_maxy=1100,},
+	[25] = { id=25,rr_type=3,rr_subtype=5,rr_mixx=201,rr_mixy=201,rr_maxx=500,rr_maxy=1000,},
+	[26] = { id=26,rr_type=3,rr_subtype=5,rr_mixx=501,rr_mixy=201,rr_maxx=1000,rr_maxy=500,},
+	[27] = { id=27,rr_type=3,rr_subtype=5,rr_mixx=701,rr_mixy=501,rr_maxx=1000,rr_maxy=1000,},
+	[28] = { id=28,rr_type=3,rr_subtype=5,rr_mixx=501,rr_mixy=701,rr_maxx=700,rr_maxy=1000,},
+	[29] = { id=29,rr_type=3,rr_subtype=6,rr_mixx=301,rr_mixy=301,rr_maxx=594,rr_maxy=900,},
+	[30] = { id=30,rr_type=3,rr_subtype=6,rr_mixx=595,rr_mixy=301,rr_maxx=900,rr_maxy=594,},
+	[31] = { id=31,rr_type=3,rr_subtype=6,rr_mixx=606,rr_mixy=595,rr_maxx=900,rr_maxy=900,},
+	[32] = { id=32,rr_type=3,rr_subtype=6,rr_mixx=595,rr_mixy=606,rr_maxx=605,rr_maxy=900,},
+	[33] = { id=33,rr_type=3,rr_subtype=7,rr_mixx=401,rr_mixy=401,rr_maxx=594,rr_maxy=800,},
+	[34] = { id=34,rr_type=3,rr_subtype=7,rr_mixx=595,rr_mixy=401,rr_maxx=800,rr_maxy=594,},
+	[35] = { id=35,rr_type=3,rr_subtype=7,rr_mixx=606,rr_mixy=595,rr_maxx=800,rr_maxy=800,},
+	[36] = { id=36,rr_type=3,rr_subtype=7,rr_mixx=595,rr_mixy=606,rr_maxx=605,rr_maxy=800,},
+	[37] = { id=37,rr_type=3,rr_subtype=8,rr_mixx=501,rr_mixy=501,rr_maxx=594,rr_maxy=700,},
+	[38] = { id=38,rr_type=3,rr_subtype=8,rr_mixx=595,rr_mixy=501,rr_maxx=700,rr_maxy=594,},
+	[39] = { id=39,rr_type=3,rr_subtype=8,rr_mixx=606,rr_mixy=595,rr_maxx=700,rr_maxy=700,},
+	[40] = { id=40,rr_type=3,rr_subtype=8,rr_mixx=595,rr_mixy=606,rr_maxx=605,rr_maxy=700,},
+}
+return ResourceRandom
