@@ -14,12 +14,3 @@ LOAD_DEPRECATED_API = false
 -- load shortcodes API
 LOAD_SHORTCODES_API = true
 
--- screen orientation
-CONFIG_SCREEN_ORIENTATION =
-
--- design resolution
-CONFIG_SCREEN_WIDTH  = 750
-CONFIG_SCREEN_HEIGHT = 1334
-
--- auto scale mode
-CONFIG_SCREEN_AUTOSCALE = "FIXED_WIDTH"
